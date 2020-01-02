@@ -1,0 +1,11 @@
+C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\bin\Debug\netcoreapp3.1\SomeTestsConsoleApp.exe
+C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\bin\Debug\netcoreapp3.1\SomeTestsConsoleApp.deps.json
+C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\bin\Debug\netcoreapp3.1\SomeTestsConsoleApp.runtimeconfig.json
+C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\bin\Debug\netcoreapp3.1\SomeTestsConsoleApp.runtimeconfig.dev.json
+C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\bin\Debug\netcoreapp3.1\SomeTestsConsoleApp.dll
+C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\bin\Debug\netcoreapp3.1\SomeTestsConsoleApp.pdb
+C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\obj\Debug\netcoreapp3.1\SomeTestsConsoleApp.csprojAssemblyReference.cache
+C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\obj\Debug\netcoreapp3.1\SomeTestsConsoleApp.AssemblyInfoInputs.cache
+C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\obj\Debug\netcoreapp3.1\SomeTestsConsoleApp.AssemblyInfo.cs
+C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\obj\Debug\netcoreapp3.1\SomeTestsConsoleApp.dll
+C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\obj\Debug\netcoreapp3.1\SomeTestsConsoleApp.pdb
