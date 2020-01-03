@@ -9,3 +9,9 @@ C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\obj\Debu
 C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\obj\Debug\netcoreapp3.1\SomeTestsConsoleApp.AssemblyInfo.cs
 C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\obj\Debug\netcoreapp3.1\SomeTestsConsoleApp.dll
 C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\obj\Debug\netcoreapp3.1\SomeTestsConsoleApp.pdb
+C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\obj\Debug\netcoreapp3.1\SomeTestsConsoleApp.csproj.CopyComplete

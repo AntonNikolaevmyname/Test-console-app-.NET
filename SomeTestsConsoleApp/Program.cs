@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace SomeTestsConsoleApp
 {
@@ -6,15 +7,15 @@ namespace SomeTestsConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.Title = "haHAA";
+            string dirName = "C:\\Program Files";
 
-            Int32 i1 = 1;
-            Int32 i2;
-            i2 = i1;
-            i1 = 3;
-            Console.WriteLine($"{GC.GetTotalMemory(false)}");
-            Console.Beep();
-            
+            DirectoryInfo dirInfo = new DirectoryInfo(dirName);
+
+            Console.WriteLine($"Название каталога: {dirInfo.Name}");
+            Console.WriteLine($"Полное название каталога: {dirInfo.FullName}");
+            Console.WriteLine($"Время создания каталога: {dirInfo.CreationTime}");
+            Console.WriteLine($"Корневой каталог: {dirInfo.Root}");
+
             Console.ReadKey();
         }
     }
