@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Text;
-using System.Text.RegularExpressions;
 
 namespace SomeTestsConsoleApp
 {
@@ -8,23 +6,15 @@ namespace SomeTestsConsoleApp
     {
         static void Main(string[] args)
         {
-            string pattern = @"^(?("")(""[^""]+?""@)|(([0-9a-z]((\.(?!\.))|[-!#\$%&'\*\+/=\?\^`\{\}\|~\w])*)(?<=[0-9a-z])@))" +
-                @"(?(\[)(\[(\d{1,3}\.){3}\d{1,3}\])|(([0-9a-z][-\w]*[0-9a-z]*\.)+[a-z0-9]{2,17}))$";
-            while (true)
-            {
-                Console.WriteLine("Введите адрес электронной почты");
-                string email = Console.ReadLine();
+            Console.Title = "haHAA";
 
-                if (Regex.IsMatch(email, pattern, RegexOptions.IgnoreCase))
-                {
-                    Console.WriteLine("Email подтвержден");
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("Некорректный email");
-                }
-            }
+            Int32 i1 = 1;
+            Int32 i2;
+            i2 = i1;
+            i1 = 3;
+            Console.WriteLine($"{GC.GetTotalMemory(false)}");
+            Console.Beep();
+            
             Console.ReadKey();
         }
     }
