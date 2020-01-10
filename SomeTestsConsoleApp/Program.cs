@@ -14,6 +14,15 @@ namespace SomeTestsConsoleApp
     {
         static void Main(string[] args)
         {
+            unsafe
+            {
+                int a = 0;
+                int* p = &a;
+            }
+
+            string s = "abcdef123";
+            Console.WriteLine(s[^2]);
+            return;
             Type myType = Type.GetType("SomeTestsConsoleApp.Person", false, true);
 
             foreach (MemberInfo mi in myType.GetMembers())
