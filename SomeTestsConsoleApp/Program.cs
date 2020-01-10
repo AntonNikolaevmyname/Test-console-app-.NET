@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Reflection;
 using System.Text.Json;
 
 namespace SomeTestsConsoleApp
@@ -13,16 +14,12 @@ namespace SomeTestsConsoleApp
     {
         static void Main(string[] args)
         {
-            dynamic x = 3; // здесь x - целочисленное int
-            Console.WriteLine(x);
+            Type myType = Type.GetType("SomeTestsConsoleApp.Person", false, true);
 
-            x = "Привет мир"; // x - строка
-            Console.WriteLine(x);
-
-            x = new Person() { Name = "Tom", Age = 23 }; // x - объект Person
-            Console.WriteLine(x);
-
-            Console.ReadLine();
+            foreach (MemberInfo mi in myType.GetMembers())
+            {
+                Console.WriteLine($"{mi.DeclaringType} {mi.MemberType} {mi.Name}");
+            }
 
             Console.ReadKey();
         }
