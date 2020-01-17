@@ -2,34 +2,21 @@
 using System.IO;
 using System.Reflection;
 using System.Text.Json;
+using print = System.Console;
 
 namespace SomeTestsConsoleApp
 {
-    class Person
-    {
-        public string Name { get; set; }
-        public int Age { get; set; }
-    }
     class Program
     {
+        static dynamic a = new Int32();
+        
+        static object c = new Int32();
         static void Main(string[] args)
         {
-            unsafe
-            {
-                int a = 0;
-                int* p = &a;
-            }
-
-            string s = "abcdef123";
-            Console.WriteLine(s[^2]);
-            return;
-            Type myType = Type.GetType("SomeTestsConsoleApp.Person", false, true);
-
-            foreach (MemberInfo mi in myType.GetMembers())
-            {
-                Console.WriteLine($"{mi.DeclaringType} {mi.MemberType} {mi.Name}");
-            }
-
+            MethodInfo type = c.GetType().GetMethod("GetType");
+            a = "aaa";
+            //var b = new Int32();
+            print.WriteLine(type.ToString());
             Console.ReadKey();
         }
     }
