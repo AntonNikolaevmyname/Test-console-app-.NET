@@ -2,20 +2,19 @@
 
 namespace SomeTestsConsoleApp
 {
-    sealed class Program
+    public static class Int32Extensions
     {
-        static Program()
+        public static void SayHiFromInt(this int i)
         {
-            Console.WriteLine("Static ctor");
+            Console.WriteLine("Hi " + i);
         }
-
-        static void SayHi()
-        {
-            Console.WriteLine("Hi");
-        }
-        
+    }
+    internal sealed class Program
+    {        
         static void Main(string[] args)
         {
+            int i = 0;
+            i.SayHiFromInt();
             Console.ReadKey();
         }
     }
