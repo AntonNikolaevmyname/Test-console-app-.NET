@@ -2,19 +2,38 @@
 
 namespace SomeTestsConsoleApp
 {
-    public static class Int32Extensions
+    public interface IA { public void Method(); }
+    public interface IB { public void Method(); }
+    public class A : IA, IB
     {
-        public static void SayHiFromInt(this int i)
+        void IA.Method()
         {
-            Console.WriteLine("Hi " + i);
+            Console.WriteLine("Ia method");
+        }
+
+        void IB.Method()
+        {
+            Console.WriteLine("Ib method");
+        }
+
+        internal void Method()
+        {
+            Console.WriteLine("A method");
         }
     }
     internal sealed class Program
     {        
         static void Main(string[] args)
         {
-            int i = 0;
-            i.SayHiFromInt();
+            IA ia = new A();
+            IB ib = new A();
+            A a = new A();
+
+            
+            ia.Method();
+            ib.Method();
+            a.Method();
+
             Console.ReadKey();
         }
     }
