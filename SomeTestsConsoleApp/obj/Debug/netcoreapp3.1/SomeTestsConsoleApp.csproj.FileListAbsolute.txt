@@ -15,3 +15,9 @@ C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\bin\Debu
 C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\obj\Debug\netcoreapp3.1\SomeTestsConsoleApp.csproj.CopyComplete
+C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\bin\Debug\netcoreapp3.1\Google.Apis.dll
+C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\bin\Debug\netcoreapp3.1\Google.Apis.Auth.PlatformServices.dll
+C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\bin\Debug\netcoreapp3.1\Google.Apis.Auth.dll
+C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\bin\Debug\netcoreapp3.1\Google.Apis.Core.dll
+C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\bin\Debug\netcoreapp3.1\Google.Apis.Sheets.v4.dll
+C:\Users\DNS\Documents\GitHub\Test-console-app-.NET\SomeTestsConsoleApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
